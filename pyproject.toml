@@ -1,0 +1,17 @@
+[project]
+name = "remote-postgres-mcp"
+version = "0.1.0"
+description = "remote postgres mcp using fastmcp"
+readme = "README.md"
+license = {text = "MIT"}
+
+authors = [
+    {name = "Jaikumar Pettikkattil", email = "jaipettikkattil@gmail.com"},
+]
+
+requires-python = ">=3.13"
+dependencies = [
+    "asyncpg>=0.30.0",
+    "fastmcp>=2.8.0",
+    "pydantic>=2.11.6",
+]

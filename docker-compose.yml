@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  remote-postgres-mcp:
+    build: .
+    ports:
+      - "8006:8006"
+    command: >
+      postgresql://username:password@host:5432/database
+      --host 0.0.0.0
+      --port 8006
+
